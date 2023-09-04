@@ -1,0 +1,162 @@
+.offers-title{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.offer-child{
+    width: 250px;
+    height: 390px;
+    margin-top: 40px;
+    margin-left: 145px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    display: inline-block;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    position: relative;
+    transition: transform 0.5s;
+}
+.offer-child:hover{
+    transform: scale(1.1);
+}
+.offer-child img{
+    width: 250px;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: transform 0.5s;
+    object-fit: cover;
+}
+.offer-child img:hover{
+    transform: scale(1.1);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.title-content{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+.offers-content{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0; 
+    padding-bottom: 8px;
+    margin-left: 10px;
+}
+.first-content{
+    display: inline-block;
+}
+.last-content{
+    display: inline-block;
+}
+.book-now-btn{
+    margin-left: 20px;
+    font-size: 11px;
+    background-color: rgb(0, 104, 230);
+    color: white;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+    transition: 0.1s;
+}
+.book-now-btn:hover{
+    background-color: rgb(0, 16, 244);
+}
+.book-now-btn:active{
+    opacity: 0.5;
+}
+.checked{
+    color: orange;
+}
+.checked:hover{
+    color: gold;
+}
+.ribbon-0{
+    width: 80px;
+    font-size: 18px;
+    padding: 4px;
+    position: absolute;
+    right: -25px;
+    top: -12px;
+    text-align: center;
+    border-radius: 25px;
+    transform: rotate(20deg);
+    background-color: #ff0000;
+    color: white;
+}
+.ribbon-1{
+    width: 80px;
+    font-size: 18px;
+    padding: 4px;
+    position: absolute;
+    right: -25px;
+    top: -16px;
+    text-align: center;
+    border-radius: 25px;
+    transform: rotate(20deg);
+    background-color:orange;
+    color: white;
+}
+.pagination-container{
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.pagination-btn{
+    cursor: pointer;
+    margin-right: 10px;
+    background-color: rgb(19, 118, 255);
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.pagination-btn:hover{
+    background-color: rgb(0, 71, 225);
+}
+.pagination-btn:active{
+    opacity: 0.5;
+}
+.pagination-link{
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    color: black;
+    width: 15px;
+    text-align: center;
+    border-radius: 2px;
+    height: 30px;
+    padding: 2px;
+    font-size: 20px;
+    margin-right: 10px;
+    transition: 0.2s;
+}
+.active-btn{
+    background-color: rgb(0, 71, 225);
+    color: white;
+}
+.pagination-link:hover:not(.active-btn){
+    background-color: black;
+    color: white;
+}

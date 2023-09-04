@@ -1,0 +1,127 @@
+.contact-title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+.contact-parent{
+    width: 100%;
+    height: 490px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contact-child{
+    width: 350px;
+    height: 460px;
+}
+.title-1{
+    margin-left: 40px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a p{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+    font-size: 18px;
+}
+.title-2{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact-details{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.fa-envelope{
+    color: red;
+    margin-left: 40px;
+    font-size: 23px;
+    margin-right: 10px;
+}
+.fa-phone{
+    color: rgb(0, 245, 114);
+    margin-left: 40px;
+    font-size: 23px;
+    margin-right: 10px;
+}
+.fa-map{
+    color: red;
+    margin-left: 40px;
+    font-size: 23px;
+    margin-right: 10px;
+}
+.details-form{
+    margin-left: 80px;
+    margin-top: 50px;
+    width: 220px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.clients-details{
+    width: 190px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-left: 13px;
+}
+.clients-details::placeholder{
+    font-size: 16px;
+    padding-left: 5px;
+}
+.txt-area{
+    height: 80px;
+}
+.subbtn{
+    background-color: rgb(0, 104, 230);
+    color: white;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 4px;
+    margin-top: 5px;
+    cursor: pointer;
+    margin-left: 72px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.13);
+}
+.subbtn:hover{
+    background-color: rgb(0, 50, 230);
+    transition: 0.3s;
+}
+.subbtn:active{
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.13);
+    transform: translateX(2px) translateY(2px);
+    opacity: 1.8;
+}
+
+/*Footer--------Design----Starts--------------------------------------------------------------*/
+footer{
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    height: 40px;
+    padding: 20px;
+}
+.copyright{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+.myname{
+    color: rgb(0, 104, 230);
+}
+/*Footer--------Design----Ends----------------------------------------------------------------*/

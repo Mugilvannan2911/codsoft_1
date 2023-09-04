@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+}
+.header-home{
+    background: url('Sample-imgs/img--1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+}
+.header-parent{
+    display: flex;
+    flex-direction: row;
+}
+.header-child-div{
+    height: 50px;
+    width: 400px;
+}
+.header-left-section{
+    width: 400px;
+    height: 80px;
+}
+.header-left-section p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 0;
+    margin-top: 22px;
+    margin-left: 40px;
+    display: inline-block;
+}
+.header-middle-section{
+    width: 600px;
+    height: 80px;
+}
+.header-right-section{
+    width: 400px;
+    height: 80px;
+}
+.header-right-section button{
+    margin-top: 20px;
+    margin-left: 135px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+    background: transparent;
+    background-color: rgb(206, 206, 206);
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.header-right-section button:hover{
+    background: rgba(255, 255, 255, 0.48);
+}
+.header-right-section button:active{
+    opacity: 0.5;
+}
+ul{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 2px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    width: 600px;
+}
+ul li{
+    float:left;
+    margin-left: 40px;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+    margin-bottom:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    box-shadow: 8px 8px 6px rgba(0, 0, 0, 0.13);
+}
+ul li a:hover{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.13);
+    transform: translateX(4px) translateY(4px);
+}
+.home-contents{
+    width: 350px;
+    height: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-top: 150px;
+    margin-left: 500px;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.home-contents p{
+    margin: 20px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.booking-btn{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.57);
+}
+.booking-btn:hover{
+    background: rgba(255, 255, 255, 0.30);
+}
+.booking-btn:active{
+    opacity: 0.5;
+}

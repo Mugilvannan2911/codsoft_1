@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Tickets</title>
+    <link rel="stylesheet" href="booking-tickets-design.css">
+</head>
+<body>
+    <div class="booking-tickets">
+        <form class="booking-form">
+            <label class="salute-lab" for="salute">Salute</label>
+            <select class="salute">
+                <option value="">Salute</option>
+                <option value="mr">Mr</option>
+                <option value="ms">Mrs</option>
+                <option value="miss">Miss</option>
+                <option value="ms">Ms</option>
+                <option value="others">Others</option>
+            </select>
+            <label class="name-lab" for="name">Name</label>
+            <input class="name" type="text" name="text" placeholder="Name" required>
+            
+            <label class="email-lab" for="email">Email</label>
+            <input class="email" type="email" name="email" placeholder="Email" required>
+            
+            <label class="phoneno-lab" for="phoneno">Phoneno</label>
+            <input class="phoneno" type="number" name="number" placeholder="Number" required>
+            
+            <label class="dob-lab" for="dob">Dob</label>
+            <input class="dob" type="date" name="text">
+
+            <label class="gender-lab" for="gender">Gender</label>
+            <select class="gender-select">
+                <option value="">Gender</option>
+                <option value="male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <label class="district-lab" for="district">District</label>  
+            <input class="district" type="text" name="text" placeholder="District" required>
+
+            <label class="state-lab" for="state">State</label>
+            <input class="state" type="text" name="text" placeholder="State" required>
+
+            <label class="country-lab" for="country">Country</label>
+            <input class="country" type="text" name="text" placeholder="Country" required>
+
+            <label class="tour-spot-lab" for="tour-spot">Tour-spot</label>
+            <select class="tour-spot-select">
+                <option value="">Choose-Tourspot-Place</option>
+                <option value="goa">Goa</option>
+                <option value="kochi">Kochi</option>
+                <option value="kodaikanal">Kodaikanal</option>
+                <option value="kolli-hills">Kolli-Hills</option>
+                <option value="leh-ladakh">Leh Ladakh</option>
+                <option value="munnar">Munnar</option>
+                <option value="mysore">Mysore</option>
+                <option value="ooty">Ooty</option>
+                <option value="yercaud">Yercaud</option>
+            </select>
+
+            <label class="tour-pack-lab" for="tour-package">Tour-Packages</label>
+            <select class="tour-package-select">
+                <option value="">-------------Packages-------------</option>
+                <option>1-Week-Day&Night</option>
+                <option>3-Days-Day&Night</option>
+                <option>2-Days-Day&Night</option>
+                <option>1-Day-Day&Night</option>
+            </select>
+
+            <label class="tour-vechi-lab" for="tour-vechicle">Tour-Vechicle</label>
+            <select class="tour-vechicle-select">
+                <option>Tour-Vechicle</option>
+                <option>Car</option>
+                <option>Bus</option>
+                <option>Mini Bus</option>
+                <option>Van</option>
+                <option>Mini Van</option>
+            </select>
+
+            <input class="sub-btn" type="submit">
+        </form>
+    </div>
+</body>
+</html>

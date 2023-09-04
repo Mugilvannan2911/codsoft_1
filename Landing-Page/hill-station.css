@@ -1,0 +1,79 @@
+.hills-title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.parent-box-container{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 800px 100px;
+	grid-template-rows: auto;
+}
+.box {
+    width: 400px;
+    height: 250px;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    margin: 75px;
+}
+.box img{
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    transition: transform 0.5s;
+    object-fit: cover;
+}
+.box-overlay {
+	width: 400px;
+	height: 0;
+	background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+	backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+	border-radius: 10px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+	font-size: 12px;
+	transition: height 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box-overlay h3 {
+	font-weight: 500;
+	margin-bottom: 5px;
+	margin-top: 15%;
+	font-size: 23px;
+	letter-spacing: 2px;
+	text-align: center;
+    color: rgb(0, 0, 0);
+}
+.box-overlay p{
+   color: rgb(255, 255, 255);
+   margin: 20px;
+}
+.box-overlay a {
+	color: #262626;
+	text-decoration: none;
+	font-size: 12px;
+	background: #fff;
+	border-radius: 50px;
+	text-align: center;
+	padding: 8px 15px;
+    font-weight: 600;
+	margin-left: 160px;
+	cursor: pointer;
+}
+.box:hover img{
+    transform: scale(1.1);
+}
+.box-overlay a:hover{
+	background-color: black;
+	color: white;
+}
+.box:hover .box-overlay{
+    height: 100%;
+}
